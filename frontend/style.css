@@ -1,0 +1,27 @@
+body
+{
+    margin: 0;
+    font-family: Arial;
+    background: #f4f4f4;
+}
+.container
+{
+    width: 400px;
+    margin: 120px auto;
+    text-align: center;
+    background: wheat;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px
+    rgba(0, 0, 0, .1);
+}
+button
+{
+    padding: 12px 25px;
+    border: blue;
+    border-radius: 8px;
+    background: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
