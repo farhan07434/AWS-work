@@ -40,7 +40,7 @@ async function exchangeCodesforTokens(code)
         }
     )
     const tokens = await response.json();
-console.log(tokens, 'laiba');
+console.log(tokens, 'laibaaaa');
 localStorage.setItem("accessToken", tokens.access_token);
 localStorage.setItem("idToken",tokens.id_token);
 const idToken = localStorage.getItem("idToken");
